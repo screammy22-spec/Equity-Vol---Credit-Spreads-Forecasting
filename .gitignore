@@ -1,0 +1,48 @@
+# Large data files
+final_data_modified.csv
+*.csv.gz
+
+# Large prediction files (>10MB)
+results/final_ablation/full_model_predictions.csv
+
+# Old ensemble archive
+ensemble_archive/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+*.eggs/
+.venv/
+venv/
+
+# HPC job logs (not SLURM scripts — those are tracked for reproducibility)
+*.err
+*.out
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.nav
+paper/*.snm
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.tex.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tarball exports
+*.tar.gz
+
+# VS Code
+.vscode/
+
+# Excel temp files
+~$*
